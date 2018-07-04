@@ -1,8 +1,8 @@
 # JS_8
 JavaScript
-
-  Создайте компонент галлереи изображений следующего вида.
   
+    Создайте компонент галлереи изображений следующего вида.
+    
     <div class="image-gallery js-image-gallery">
       <div class="fullview">
         <!-- Если выбран первый элемент из preview -->
@@ -46,15 +46,15 @@ JavaScript
     🔔 Изображения маленькие и большие можно взять с сервиса https://www.pexels.com/, выбрав при скачивании
       размер. Пусть маленькие изображения для preview будут 320px по ширине, большие для fullview 1280px.
       Подберите изображения одинаковых пропорций.
-
-  Массив объектов с данными для создания компонента выглядит следующим образом.
-  Замените пути на соотвествующие вашим, или назовите изображения аналогично.
-  
-  const galleryItems = [
-  { preview: 'img/preview-1.jpeg', fullview: 'img/fullview-1.jpeg', alt: "alt text 1" },
-  { preview: 'img/preview-2.jpeg', fullview: 'img/fullview-2.jpeg', alt: "alt text 2" },
-  { preview: 'img/preview-3.jpeg', fullview: 'img/fullview-3.jpeg', alt: "alt text 3" },
-  { preview: 'img/preview-4.jpeg', fullview: 'img/fullview-4.jpeg', alt: "alt text 4" },
-  { preview: 'img/preview-5.jpeg', fullview: 'img/fullview-5.jpeg', alt: "alt text 5" },
-  { preview: 'img/preview-6.jpeg', fullview: 'img/fullview-6.jpeg', alt: "alt text 6" },
-];
+      
+        Массив объектов с данными для создания компонента выглядит следующим образом.
+        Замените пути на соотвествующие вашим, или назовите изображения аналогично.
+        
+          const galleryItems = [
+            { preview: 'img/preview-1.jpeg', fullview: 'img/fullview-1.jpeg', alt: "alt text 1" },
+            { preview: 'img/preview-2.jpeg', fullview: 'img/fullview-2.jpeg', alt: "alt text 2" },
+            { preview: 'img/preview-3.jpeg', fullview: 'img/fullview-3.jpeg', alt: "alt text 3" },
+            { preview: 'img/preview-4.jpeg', fullview: 'img/fullview-4.jpeg', alt: "alt text 4" },
+            { preview: 'img/preview-5.jpeg', fullview: 'img/fullview-5.jpeg', alt: "alt text 5" },
+            { preview: 'img/preview-6.jpeg', fullview: 'img/fullview-6.jpeg', alt: "alt text 6" },
+          ];
